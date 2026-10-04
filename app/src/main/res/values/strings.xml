@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CampusMind AI</string>
+    <string name="shortcut_new_chat">New Chat</string>
+    <string name="shortcut_live_voice">Live Voice</string>
 </resources>

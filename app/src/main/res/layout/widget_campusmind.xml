@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_widget_rounded"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/widget_logo"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:text="🎓"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/widget_search_bar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="8dp"
+        android:text="Ask CampusMind..."
+        android:textColor="#9E9E9E"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/widget_btn_mic"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="6dp"
+        android:contentDescription="Voice mode"
+        android:src="@drawable/ic_shortcut_live_voice" />
+
+    <ImageView
+        android:id="@+id/widget_btn_new"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:padding="6dp"
+        android:layout_marginStart="4dp"
+        android:contentDescription="New chat"
+        android:src="@drawable/ic_shortcut_new_chat" />
+
+</LinearLayout>

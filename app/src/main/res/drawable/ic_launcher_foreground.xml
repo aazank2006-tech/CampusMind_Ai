@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:width="66dp"
-        android:height="66dp"
-        android:drawable="@drawable/campusmind_icon_1791122374019"
-        android:gravity="center" />
-</layer-list>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.65"
+        android:scaleY="0.65"
+        android:translateX="18.9"
+        android:translateY="18.9">
+        <!-- Graduation Cap Base -->
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M54,20 L16,38 L54,56 L86,40.5 L86,66 L92,66 L92,38 Z" />
+        <!-- Cap Underside Arch -->
+        <path
+            android:fillColor="#FFE3F2FD"
+            android:pathData="M30,50 L30,68 C30,78 40,84 54,84 C68,84 78,78 78,68 L78,50 L54,62 Z" />
+        <!-- Tassel -->
+        <path
+            android:fillColor="#FFFFD54F"
+            android:pathData="M89,42 C87,42 86,44 86,46 L84,70 C84,72 86,74 88,74 L90,74 C92,74 94,72 94,70 L92,46 C92,44 91,42 89,42 Z" />
+        <!-- Sparkle Star Accent -->
+        <path
+            android:fillColor="#FF82B1FF"
+            android:pathData="M80,14 L82,22 L90,24 L82,26 L80,34 L78,26 L70,24 L78,22 Z" />
+    </group>
+</vector>
