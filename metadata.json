@@ -1,0 +1,6 @@
+{
+  "name": "CampusMind AI",
+  "description": "Multi-persona AI study companion for university students with memory, document Q&A, and academic personas",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
